@@ -18,6 +18,14 @@ def registrar_venta():
     return nueva_venta
 
 
+
+
+
+
+
+
+
+
 # SEGUNDO BLOQUE
 
 datos_ventas = []
