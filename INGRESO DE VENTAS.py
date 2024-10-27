@@ -42,3 +42,27 @@ for i in range(total_ventas):
     datos_ventas.append(registrar_venta())
 
 print("Datos de ventas ingresados exitosamente:", datos_ventas)
+
+
+
+
+
+
+
+#CUARTO BLOQUE (PROMEDIO)
+#para la funcion los datos ingresados tienen que estar en una lista
+def promedio(ingresos):
+    total_ingresos = 0
+    num_ingresos = len(ingresos)
+
+    for i in range(num_ingresos):
+        ingreso = ingresos[i] 
+        total_ingresos += ingreso 
+
+    if num_ingresos > 0:
+        promedio = total_ingresos / num_ingresos
+    else:
+        promedio = 0
+
+    return promedio
+
