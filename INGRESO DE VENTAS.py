@@ -1,9 +1,3 @@
-def registrar_venta():
-
-    print("\n--- Nuevo Registro de Venta ---")
-
-
-    
 
  def registrar_venta():
     print("\n--- Nuevo Registro de Venta ---")
