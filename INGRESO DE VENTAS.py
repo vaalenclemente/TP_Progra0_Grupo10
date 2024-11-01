@@ -5,10 +5,31 @@ def registrar_venta():
 
     #SOLICITO INFORMACION DE LA VENTA
 
+ def registrar_venta():
+    print("\n--- Nuevo Registro de Venta ---")
+
+    # SOLICITO INFORMACION DE LA VENTA
     producto_id = int(input("Ingrese el identificador del producto (número entero): "))
+    while producto_id <= 0:
+        print("El ID del producto debe ser un número mayor a cero.")
+        producto_id = int(input("Ingrese el identificador del producto (número entero): "))
+
     producto_categoria = input("Ingrese la categoría del producto: ")
+    while producto_categoria == "":
+        print("La categoría no puede estar vacía.")
+        producto_categoria = input("Ingrese la categoría del producto: ")
+
     producto_precio = float(input("Precio unitario del producto (en formato decimal): "))
+    while producto_precio <= 0:
+        print("El precio debe ser un valor positivo.")
+        producto_precio = float(input("Precio unitario del producto (en formato decimal): "))
+
     unidades_vendidas = int(input("Cantidad vendida: "))
+    while unidades_vendidas <= 0:
+        print("La cantidad vendida debe ser un número mayor a cero.")
+        unidades_vendidas = int(input("Cantidad vendida: "))
+
+     
     fecha = input("Fecha de la venta (dd-mm-aaaa): ")
 
 
