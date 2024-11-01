@@ -3,7 +3,7 @@ def registrar_venta():
     print("\n--- Nuevo Registro de Venta ---")
 
 
-    #SOLICITO INFORMACION DE LA VENTA
+    
 
  def registrar_venta():
     print("\n--- Nuevo Registro de Venta ---")
