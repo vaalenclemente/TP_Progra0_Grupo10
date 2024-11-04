@@ -49,7 +49,7 @@ print("Datos de ventas ingresados exitosamente:", datos_ventas)
 
 
 
-#CUARTO BLOQUE (PROMEDIO)
+#CUARTO BLOQUE (calculo PROMEDIO)
 #para la funcion los datos ingresados tienen que estar en una lista
 def promedio(ingresos):
     total_ingresos = 0
